@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+	<title>Functional Tests</title>
+  <meta name="description" content="Functional tests">
+  <meta name="author" content="Julien B&eacute;rub&eacute;">
+
+	<!-- Libraries. I couldn't do this without them ;) -->
+  <!--<script src="../js/libs/modernizr-2.0.6.min.js"></script>-->
+	<!--<script type="text/javascript" src="https://www.google.com/jsapi"></script>-->
+  <script src="../../js/libs/jquery.current.js"></script>
+
+	<!-- polyfills -->
+
+	<!-- reference your own javascript files here -->
+	<script src="../../../model/Model.js"></script>
+	<script src="../../../model/JQueryMapRenderer.js"></script>
+	<script src="../mocks/MockMapRenderer.js"></script>
+	<script src="../mocks/MockSocketsIO.js"></script>
+
+	<!-- test runner files -->
+	<link href="../qunit/qunit.css" rel="stylesheet" media="screen">
+	<script src="../qunit/qunit.js"></script>
+	<script src="functional.js"></script>
+
+</head>
+
+<body class="flora">
+	<h1 id="qunit-header">QUnit Test Suite</h1>
+	<h2 id="qunit-banner"></h2>
+	<div id="qunit-testrunner-toolbar"></div>
+	<h2 id="qunit-userAgent"></h2>
+	<ol id="qunit-tests"></ol>
+	<div id="qunit-fixture">test markup</div>
+</body>
+</html>

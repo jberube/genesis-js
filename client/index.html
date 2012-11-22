@@ -1,0 +1,93 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+       More info: h5bp.com/b/378 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Test zone</title>
+  <meta name="description" content="Some test using node.js">
+  <meta name="author" content="Julien Bérubé">
+
+  <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+
+  <!-- CSS: implied media=all -->
+  <!-- CSS concatenated and minified via ant build script-->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style2.css">
+  <!-- end CSS-->
+
+  <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
+
+  <!-- All JavaScript at the bottom, except for Modernizr / Respond.
+       Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
+       For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ -->
+  <script src="js/libs/modernizr-2.0.6.min.js"></script>
+</head>
+
+<body>
+
+  <div id="container">
+    <header class="shadow">
+		<ul>
+			<li class="tab shadow">&hearts; hawt pink</li>
+		</ul>
+		<span class="tab shadow">&hearts; hawt pink</span>
+		<img src="http://www.gravatar.com/avatar/dd52fec7e3f2fb608a700814c305db94?s=150" alt="that would be me" class="myface shadow" />
+    </header>
+    <div id="main" role="main" class="shadow2">
+		<h1 class="shadow">&hearts; hawt pink</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi imperdiet consectetur odio, non semper justo malesuada a. In condimentum libero venenatis arcu iaculis tempus. Nullam sagittis ultrices semper. Phasellus nec dui vitae turpis vestibulum vestibulum. Donec porttitor consectetur orci, dictum accumsan augue consectetur quis. Suspendisse vehicula tellus a metus porta nec condimentum nisi ultricies. Donec vel dui arcu, id tincidunt ipsum. Sed nunc tortor, ullamcorper a tristique quis, viverra in elit. Suspendisse a sem nisi, at pellentesque nisi. In hendrerit interdum massa, nec mollis felis tincidunt in. Donec justo metus, condimentum a tristique at, consectetur non ligula. Phasellus ac nulla neque, in cursus purus. Ut mi justo, adipiscing quis molestie fermentum, vestibulum vitae nulla. Quisque faucibus, tortor sed ornare fermentum, metus urna pretium urna, vitae vestibulum justo massa eget dolor.</p>
+		<p>Duis quis velit ut urna venenatis laoreet vel ac nunc. Donec id dui sit amet purus tempor semper. Nulla blandit elit vitae lorem varius non laoreet tortor ullamcorper. Nunc vulputate blandit dolor id dignissim. Vivamus commodo mattis viverra. Aliquam eu sapien id tortor ultrices aliquam. Nulla pretium ipsum eget dolor luctus rutrum. Nam tincidunt lacus non erat facilisis convallis. Vivamus ut elit justo, id volutpat nunc. Praesent facilisis vulputate ipsum ac commodo. Nullam hendrerit rhoncus purus vel malesuada. Sed dui libero, eleifend ultrices tempus vel, sagittis sit amet tellus.</p>
+		<p>Suspendisse imperdiet ipsum nec turpis dictum mollis. Vestibulum et tellus at dolor accumsan feugiat. Nulla pulvinar augue id dolor eleifend vel pretium orci faucibus. Aenean lorem diam, bibendum nec malesuada et, adipiscing in orci. Maecenas congue imperdiet elit at gravida. Vivamus dui purus, mollis vulputate rhoncus non, rhoncus lacinia quam. Maecenas eu mi ligula.</p>
+		<p>Nam pulvinar, libero nec pharetra pellentesque, libero ante pellentesque orci, id rhoncus dui dui a diam. Praesent tincidunt condimentum egestas. Nulla facilisi. Pellentesque aliquam rhoncus magna ac feugiat. Donec interdum posuere tempor. Donec metus ipsum, gravida in auctor quis, rutrum in magna. Etiam porta pretium urna vel feugiat. Nunc sit amet pulvinar nisi. Integer facilisis mollis elit, non interdum lacus euismod non. Pellentesque convallis libero in nisi facilisis ac malesuada magna volutpat. Donec tincidunt diam sed odio consequat mattis. Vestibulum at odio in erat hendrerit dictum vel vitae enim. Cras ante purus, aliquam sit amet semper a, sollicitudin et tortor. Donec non nibh quis turpis elementum congue ac et mi. Aliquam ut nulla scelerisque turpis tincidunt varius non in magna.</p>
+		<P>Morbi vel justo id nunc porta gravida. Mauris tristique tristique turpis eu tempus. Nunc molestie metus suscipit ante ultricies sit amet faucibus orci cursus. Nullam non lacus leo. In augue nunc, luctus sit amet consectetur id, porttitor ac dolor. Curabitur at elementum felis. Morbi sagittis dignissim tortor vitae condimentum. Ut semper cursus lectus, blandit euismod lacus sagittis vel. Curabitur lobortis nisi dui.</p>
+    </div>
+    <footer class="shadow">
+		<span>©2012 Julien Bérubé</span>
+    </footer>
+  </div> <!--! end of #container -->
+
+
+  <!-- JavaScript at the bottom for fast page loading -->
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+
+
+  <!-- scripts concatenated and minified via ant build script-->
+  <script defer src="js/plugins.js"></script>
+  <script defer src="js/script.js"></script>
+  <!-- end scripts-->
+
+	
+  <!-- Change UA-XXXXX-X to be your site's ID -->
+  <!-- 
+	<script>
+    window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
+    Modernizr.load({
+      load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+    });
+  </script>
+	-->
+
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7 ]>
+    <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+    <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+  <![endif]-->
+  
+</body>
+</html>

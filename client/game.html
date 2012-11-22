@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Mobile viewport optimized: j.mp/bplateviewport -->
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Map</title>
+	<script src="./js/libs/jquery.current.js"></script>
+	<script src="./js/grid.js"></script>
+	<script src="./js/libs/socket.io.js"></script>
+	<script src="./js/polyfills.js"></script>
+
+	<!-- Game stuff -->
+	<script src="../model/Model.js"></script>
+	<script src="./js/Game.js"></script>
+	<script src="../model/JQueryMapRenderer.js"></script>
+	
+	<link href="./css/style.css" type="text/css" rel="stylesheet"/>
+	<link href="./css/game.css" type="text/css" rel="stylesheet"/>
+</head>
+
+<body>
+	<div id="grid"></div>
+	<div id="tpf">-</div>
+	<div id="color">
+		<div>r:<input type="range" class="r" min="0" max="255" step="1" defaul="0" /></div>
+		<div>g:<input type="range" class="g" min="0" max="255" step="1" defaul="0" /></div>
+		<div>b:<input type="range" class="b" min="0" max="255" step="1" defaul="0" /></div>
+		<button>Color!</button>
+	</div>
+</body>
+</html>
